@@ -1,6 +1,4 @@
 package com.alpha.jmrplogistics.entity;	
-
-
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -66,6 +64,5 @@ public class User {
 	public void setUserrole(String userrole) {
 		this.userrole = userrole;
 	}
-    
-    
+
 }
